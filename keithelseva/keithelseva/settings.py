@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 
-live_deploy = False
+live_deploy = True
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,7 +38,7 @@ if live_deploy == False:
 
 
 elif live_deploy == True:
-    DEBUG = True
+    DEBUG = False
 
     ALLOWED_HOSTS = ['keithelseva.in','www.keithelseva.in',]
 
