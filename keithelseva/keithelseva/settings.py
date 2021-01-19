@@ -38,9 +38,9 @@ if live_deploy == False:
 
 
 elif live_deploy == True:
-    DEBUG = False
+    DEBUG = True
 
-    ALLOWED_HOSTS = ['keithelseva.in','www.keithelseva.in',]
+    ALLOWED_HOSTS = ['keithelseva.in','www.keithelseva.in','128.199.30.107']
 
     # Database
     # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
