@@ -1,5 +1,4 @@
 from django.db import models
-<<<<<<< HEAD
 from django.forms import ModelForm
 from django.contrib.auth.models import User
 from django import forms
@@ -39,5 +38,3 @@ class ProductForm(ModelForm):
         'product_category': forms.TextInput(attrs={'class':'form-control'}),
         'product_registration_date': forms.HiddenInput(),
         } 
-=======
->>>>>>> da19810a2703c7ded6b7ef8719755b5ed5210cc2
